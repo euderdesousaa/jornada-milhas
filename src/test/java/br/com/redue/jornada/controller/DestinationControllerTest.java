@@ -69,7 +69,7 @@ class DestinationControllerTest {
 
 
     @Test
-    @DisplayName("Should throw 404 http code when  Deveria devolver codigo http 404 ao informar nome invalido")
+    @DisplayName("Should throw 404 http code when param is invalid")
     void get_Destination_ByParam_Invalid() throws Exception {
         // Mock do comportamento do serviço
         when(service.getDestinationByParam("1")).thenReturn(ResponseEntity.notFound().build());
