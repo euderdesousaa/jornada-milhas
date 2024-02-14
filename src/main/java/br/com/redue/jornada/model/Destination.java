@@ -1,14 +1,11 @@
 package br.com.redue.jornada.model;
 
-import br.com.redue.jornada.model.dto.destination.DestinationDto;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.UUID;
 
 @Getter
 @Setter
