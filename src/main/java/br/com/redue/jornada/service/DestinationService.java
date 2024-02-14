@@ -8,7 +8,6 @@ import br.com.redue.jornada.model.dto.destination.DestinationUpdateDTO;
 import br.com.redue.jornada.repository.DestinationRepository;
 import com.pkslow.ai.GoogleBardClient;
 import com.pkslow.ai.domain.Answer;
-import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
