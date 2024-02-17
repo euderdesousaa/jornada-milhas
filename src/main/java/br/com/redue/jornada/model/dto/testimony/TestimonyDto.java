@@ -1,4 +1,4 @@
-package br.com.redue.jornada.model.dto;
+package br.com.redue.jornada.model.dto.testimony;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
