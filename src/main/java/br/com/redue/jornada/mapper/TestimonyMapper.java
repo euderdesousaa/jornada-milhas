@@ -1,7 +1,8 @@
 package br.com.redue.jornada.mapper;
 
 import br.com.redue.jornada.model.Testimony;
-import br.com.redue.jornada.model.dto.TestimonyDto;
+import br.com.redue.jornada.model.dto.testimony.TestimonyDto;
+import br.com.redue.jornada.model.dto.testimony.TestimonyUpdateDto;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 
@@ -13,5 +14,5 @@ public interface TestimonyMapper {
     @InheritInverseConfiguration
     Testimony toEntity(TestimonyDto dto);
 
-    Testimony toUpdate(Testimony update);
+    TestimonyUpdateDto toUpdate(Testimony update);
 }
